@@ -279,7 +279,6 @@ header .buger-menu {
   padding: 14px;
   justify-content: center;
   align-items: center;
-  width: fit-content;
 }
 @media screen and (max-width: 570px) {
   .hero .inside .row svg {
@@ -783,7 +782,6 @@ header .buger-menu {
   border: 1px solid var(--white-95, #f1f1f3);
 }
 .pricing .details .row svg {
-  width: fit-content;
   box-sizing: content-box;
   border-radius: 4px;
   background: var(--orange-95, #fff4e5);
@@ -834,11 +832,10 @@ footer .row {
   flex-direction: column;
   gap: 20px;
 }
-@media screen and (max-width:1050px){
+@media screen and (max-width: 1050px) {
   .footer-start-side {
-    width: 70%; 
+    width: 70%;
   }
-
 }
 .footer-start-side .logo {
   margin-bottom: 20px;
@@ -895,20 +892,16 @@ footer .row {
   font-weight: 400;
   line-height: 150%; /* 27px */
 }
-.footer-end-side .footer-item .social{
+.footer-end-side .footer-item .social {
   display: flex;
-  gap:14px;
+  gap: 14px;
 }
-.footer-end-side .footer-item .social a{
+.footer-end-side .footer-item .social a {
   box-sizing: content-box;
   border-radius: 8px;
-border: 1px solid var(--white-95, #F1F1F3);
-background: var(--white-97, #F7F7F8);
-padding: 14px;
-
-  
-
-
+  border: 1px solid var(--white-95, #f1f1f3);
+  background: var(--white-97, #f7f7f8);
+  padding: 14px;
 }
 footer .rights {
   text-align: center;
