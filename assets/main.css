@@ -147,10 +147,11 @@ a {
 }
 /* header strat here*/
 header {
+  z-index: 1000;
   border-bottom: 1px solid var(--white-95, #f1f1f3);
   position: sticky;
   top: 0;
-  background: var(--white-97, #f7f7f8);
+  background: #fff;
 }
 header .container {
   margin-top: 20px;
