@@ -570,7 +570,7 @@ font-weight: 400;
   width: calc((100% - 20px) / 2);
   gap: 24px;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 800px) {
   .courses .item {
     width: 100%;
   }
